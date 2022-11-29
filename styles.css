@@ -49,3 +49,9 @@ kbd {
     letter-spacing: .1rem;
     color: #ffc600;
 }
+@media (max-width: 400px) {
+    .keys {
+        display: flex;
+        flex-direction: column;
+    }
+}
